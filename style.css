@@ -1,0 +1,44 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: gray;
+    
+}
+.style {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.stylee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size:40px;
+}
+.dodo {
+    display: inline-flex;
+    flex-direction: column;
+    width: 500px;
+    height: 250px;
+    margin-top: 40px;
+    font-family: 'Bitter', serif;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    
+}
+.cl {
+    display: inline-flex;
+    width: 700px;
+    margin-left: 200px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    color: gray;
+}
+
+
