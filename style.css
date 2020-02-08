@@ -1,44 +1,72 @@
-.about {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.mogo {
+    display: inline-flex;
+    font-family: 'Martel', serif;
+    font-size: 25px;
     color: gray;
-    
+    padding-right: 30px;
 }
-.style {
-    margin-top: 80px;
+.link{
+    display:inline-flex;
+    text-decoration: none;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    font-size: 20px;
+    color: gray;
+    font-family: 'Martel', serif;
+}
+.ld {
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-family: 'Dancing Script', cursive;
+    justify-content: center;
+    font-family: 'Courgette', cursive;
     font-size: 30px;
 }
-.stylee {
+.mif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+}
+.inf {
+    display: inline-flex;
+    flex-direction: row;
+    width: 320px;
+    height: 80px;
+    padding-top: 110px;
+    padding-bottom: 95px;
+    padding-left: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.daun {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2px;
+}
+body {
+    padding-right: 360px;
+    padding-left: 360px;
+}
+.daun p {
+    display: inline-flex;
+    justify-content: center;
+}
+.f4 {
+    display: inline-flex;
+    align-items: baseline;
+}
+.lorem {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
-    font-size:40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 95px;
+    padding-top: 90px;
 }
-.dodo {
-    display: inline-flex;
-    flex-direction: column;
-    width: 500px;
-    height: 250px;
-    margin-top: 40px;
-    font-family: 'Bitter', serif;
-    align-items: center;
-    justify-content: center;
-    color: gray;
-    
-}
-.cl {
-    display: inline-flex;
-    width: 700px;
-    margin-left: 200px;
-    font-family: 'Barlow', sans-serif;
-    font-size: 40px;
+.dwa {
+    font-family: 'Martel', serif;
     color: gray;
 }
-
 
